@@ -2,6 +2,7 @@ var REG_NAMECOM = NewRegistrar("name.com");
 var DSP_NAMECOM = NewDnsProvider("name.com");
 
 D("signalk.org", REG_NAMECOM, DnsProvider(DSP_NAMECOM),
+    DefaultTTL(2000),
 
     A("@","185.199.108.153"),
     A("@","185.199.109.153"),
