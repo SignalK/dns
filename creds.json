@@ -1,0 +1,7 @@
+{
+  "name.com": {
+    "TYPE": "NAMEDOTCOM",
+    "apikey": "$TOKEN",
+    "apiuser": "$USER"
+  }
+}
