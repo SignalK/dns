@@ -17,4 +17,8 @@ D("signalk.org", REG_NAMECOM, DnsProvider(DSP_NAMECOM),
     TXT("mail._domainkey","v=DKIM1; k=rsa; t=y; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKS3XYzFejuKKG8RtPC+SUIq2/NKN/Zbc+anRX6KBd9IwiL/HfFco/5ifYwEiTPOPrrOtcugdLplVatO/MIvYlF2DLJ8NGyTl/1iBdRp3Ft9XLbIdfslV0Jar3Tu0ZR1aGxfBwPuvna4fx5XcnxOc0wZ9+SNThfgbQr9ELIZBP3wIDAQAB"),
     TXT("@","v=spf1 mx a ip4:71.121.161.147 a:mail.signalk.org -all"),
     TXT("@","google-site-verification=wqLhnX7f0oUcRfr6ciwb3X1XFDHLZRY3fUQzfeGr-Bg"),
+
+    //this does not work even if the value is correct, provisions
+    //with quotes around the value. verified it manually
+    TXT("_atproto", "did=did:plc:b6o3a5sifu6lp7if47yabyvp"),
 END);
