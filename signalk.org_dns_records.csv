@@ -2,6 +2,7 @@ Type,Host,Answer,TTL,Priority
 A,autodiscover.signalk.org,71.121.161.147,300,
 A,cloud.signalk.org,52.2.109.164,300,
 CNAME,demo.signalk.org,demo-signalk-org.fly.dev,300,
+CNAME,latest.signalk.org,latest-signalk-org.fly.dev,300,
 A,mail.signalk.org,71.121.161.147,300,
 TXT,mail._domainkey.signalk.org,"v=DKIM1; k=rsa; t=y; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKS3XYzFejuKKG8RtPC+SUIq2/NKN/Zbc+anRX6KBd9IwiL/HfFco/5ifYwEiTPOPrrOtcugdLplVatO/MIvYlF2DLJ8NGyTl/1iBdRp3Ft9XLbIdfslV0Jar3Tu0ZR1aGxfBwPuvna4fx5XcnxOc0wZ9+SNThfgbQr9ELIZBP3wIDAQAB",300,
 A,signalk.org,185.199.108.153,300,
